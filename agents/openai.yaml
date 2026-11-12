@@ -1,0 +1,4 @@
+interface:
+  display_name: "MV Prompt Director"
+  short_description: "根据主体图和可选风格图创作音乐 MV，并调用当前视频工具生成成片"
+  default_prompt: "使用 $mv-prompt-director，根据我上传的图片创作音乐 MV，并通过当前可用的视频生成工具生成成片。默认使用 Seedance 2.5，目标为30秒、16:9横幅、1080p、有声，其余创作设定请合理补全。"
